@@ -95,6 +95,17 @@
   display: flex !important;
 }
 
+.toggle-expand-button svg {
+  vertical-align: middle;
+  color: #ab37e7;
+}
+
+.toggle-expand-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
 
 @media (max-width: 1024px) {
   .mobile-navbar-hide {
@@ -117,6 +128,14 @@
     z-index: 999;
     transition: width 0.1s linear;
     /*transition: 0.5s !important;*/
+  }
+
+  .toggle-expand-button {
+    margin-left: 10px;
+  }
+
+  .home-mobile {
+    margin-top: 35px !important;
   }
 }
 
